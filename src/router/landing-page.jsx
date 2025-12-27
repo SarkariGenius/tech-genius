@@ -4,7 +4,7 @@ import FrontendLayout from "../layouts/FrontendLayout";
 import BlankLayout from "../layouts/BlankLayout";
 
 // pages
-const AllWalkInList = lazy(()=> import ("../views/WalkInLists/AllWalkInList.jsx"))
+const AllWalkInList = lazy(()=> import ("../views/WalkInLists/AllWalkinList.jsx"))
 
 const WalkInDetail = lazy(() =>
   import("../views/WalkinPages/WalkinDetail.jsx")
