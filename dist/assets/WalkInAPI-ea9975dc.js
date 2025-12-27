@@ -1,0 +1,1 @@
+import{a as e,A as t}from"./axios-1514649c.js";const o=async()=>{try{return(await e.get(t.GET_ALL_WALK_INS)).data.data||[]}catch(r){console.error("Error fetching jobs:",r)}},n=async r=>{try{return(await e.get(`${t.GET_WALK_IN}/${r}`)).data}catch(a){console.error("error in delete Walk-Ins",a)}};export{n as a,o as g};
